@@ -2,11 +2,11 @@ valor = input("digite um valor: ")
 
 try:
     valorf = float(valor)
-    valorint = int(valor)
+    valorint = int(valorf)
 
-    if valorint :
+    if valorint == valorf:
         print(type(valorint), valorint * 2)
-    elif valorf:
+    else:
         print(type(valorf), valorf / 2)
 
 except:
